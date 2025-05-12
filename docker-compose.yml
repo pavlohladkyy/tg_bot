@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  tgbt:
+    image: tgbt
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 5002:5002
